@@ -4,16 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.github.issamzeggai.listechampions.View.MainActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack">
 
     <!-- A RecyclerView with some commonly used attributes -->
+    <TextView
+        android:layout_width="395dp"
+        android:layout_height="122dp"
+        android:layout_above="@+id/my_recycler_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="-58dp"
+        android:text="Champion"
+        android:textColor="@color/colorGold"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="22sp"
+        tools:text="Bibliothèque des Champions de League of Legends" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginTop="65dp"
         android:layout_marginRight="16dp"
-        android:scrollbars="vertical" ></android.support.v7.widget.RecyclerView>
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
 </RelativeLayout>
