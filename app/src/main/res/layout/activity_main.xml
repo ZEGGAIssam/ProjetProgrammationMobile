@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.github.issamzeggai.listechampions.View.MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlack">
+    android:background="@drawable/gradient"
+    tools:context="com.github.issamzeggai.listechampions.View.MainActivity">
 
     <!-- A RecyclerView with some commonly used attributes -->
     <TextView
@@ -19,17 +19,26 @@
         android:layout_marginEnd="21dp"
         android:layout_marginRight="21dp"
         android:layout_marginBottom="-58dp"
-        android:text="Champion"
-        android:textColor="@color/colorGold"
+        android:text="Bibliothèque des Champions de League of Legends"
         android:textAlignment="center"
+        android:textColor="@color/colorGold"
         android:textColorHighlight="@color/cardview_light_background"
         android:textSize="22sp"
+        android:textStyle="bold"
         tools:text="Bibliothèque des Champions de League of Legends" />
+
+    <ProgressBar
+        android:id="@+id/Progress_Bar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="372dp"
+        android:layout_height="630dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="65dp"
         android:layout_marginRight="16dp"
