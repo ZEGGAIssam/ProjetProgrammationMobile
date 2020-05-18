@@ -1,6 +1,7 @@
 package com.github.issamzeggai.listechampions.View;
 
 import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
@@ -23,6 +24,7 @@ public class InfoStats extends AppCompatActivity {
         public TextView txtMoveSpeed;
         public TextView armor;
         public TextView attackDamage;
+        public TextView tags;
         public View layout;
         public ImageView imageURL;
         private MainController controller;
@@ -36,6 +38,7 @@ public class InfoStats extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.champion_stats);
             //txtHeader = findViewById(R.id.image_description);
+            tags = findViewById( R.id.tags );
             txtFooter = findViewById(R.id.title);
             txtDescription = findViewById(R.id.description);
             txtHp = findViewById(R.id.hp);
@@ -50,6 +53,7 @@ public class InfoStats extends AppCompatActivity {
             Champion champion = (Champion) intent.getSerializableExtra(this.getResources().getString(R.string.champion));
 
             //  txtHeader.setText(champion.getName());
+            tags.setText("Type de Champion : " + champion.getTags().toString());
             txtFooter.setText("Title : " + champion.getTitle());
             txtDescription.setText("Description : " + champion.getDescription());
             txtHp.setText(String.valueOf(champion.getStats().getHp()));
