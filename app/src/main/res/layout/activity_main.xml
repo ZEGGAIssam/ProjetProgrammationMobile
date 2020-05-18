@@ -33,7 +33,7 @@
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="181dp" />
+        android:layout_marginTop="181dp"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_recycler_view"
@@ -42,6 +42,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="65dp"
         android:layout_marginRight="16dp"
-        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
 
 </RelativeLayout>

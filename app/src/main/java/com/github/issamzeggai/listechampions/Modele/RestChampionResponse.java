@@ -2,6 +2,7 @@ package com.github.issamzeggai.listechampions.Modele;
 
 import java.util.List;
 
+
 public class RestChampionResponse {
     private int count;
     private String next;

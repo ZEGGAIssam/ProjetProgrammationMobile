@@ -1,9 +1,11 @@
 package com.github.issamzeggai.listechampions;
 
 import com.github.issamzeggai.listechampions.Controller.RestApiChampion;
-import com.github.issamzeggai.listechampions.Controller.RestApiLoLChampion;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -23,7 +25,7 @@ public class InjectionJSON {
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .build();
 
-            restApiChampion = retrofit.create( RestApiChampion.class);
+            restApiChampion = retrofit.create(RestApiChampion.class);
         }
         return restApiChampion;
     }

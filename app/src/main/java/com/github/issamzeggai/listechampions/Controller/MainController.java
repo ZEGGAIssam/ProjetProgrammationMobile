@@ -5,29 +5,28 @@ import android.text.TextUtils;
 
 import com.github.issamzeggai.listechampions.Modele.Champion;
 import com.github.issamzeggai.listechampions.View.MainActivity;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainController {
-        public MainActivity view;
-        private RestApiChampion restApiChampion;
-        private SharedPreferences sharedPreferences;
 
-        public MainController(MainActivity view, RestApiChampion restApiChampion,SharedPreferences sharedPreferences) {
-            this.view = view;
-            this.restApiChampion = restApiChampion;
-            this.sharedPreferences = sharedPreferences;
-        }
+public class MainController {
+    public MainActivity view;
+    private RestApiChampion restApiChampion;
+    private SharedPreferences sharedPreferences;
+
+    public MainController(MainActivity view, RestApiChampion restApiChampion,SharedPreferences sharedPreferences) {
+        this.view = view;
+        this.restApiChampion = restApiChampion;
+        this.sharedPreferences = sharedPreferences;
+    }
     private void storeData(List<Champion> championList) {
         Gson gson = new Gson();
         String listCharacterString = gson.toJson(championList);
@@ -59,6 +58,7 @@ public class MainController {
                     System.out.println(response.errorBody());
                 }
             }
+
             @Override
             public void onFailure(Call<List<Champion>> call, Throwable t) {
                 t.printStackTrace();

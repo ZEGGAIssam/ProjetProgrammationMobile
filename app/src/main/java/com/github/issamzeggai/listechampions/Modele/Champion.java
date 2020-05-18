@@ -1,7 +1,7 @@
 package com.github.issamzeggai.listechampions.Modele;
+
 import java.io.Serializable;
 
-import java.util.List;
 public class Champion  implements Serializable {
     private String name;
     private String description;
@@ -11,6 +11,7 @@ public class Champion  implements Serializable {
     public String getTitle() {
         return title;
     }
+
     private Stats stats;
 
     public Stats getStats() {
@@ -20,9 +21,11 @@ public class Champion  implements Serializable {
     public String getIcon() {
         return icon;
     }
+
     public String getDescription() {
         return description;
     }
+
     public String getName() {
         return name;
     }

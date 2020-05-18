@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ListeChampions</string>
+    <string name="description">Description</string>
+    <string name= "champion">champion</string>
+    <string name="example_application">Example application</string>
+    <string name="title">Titre</string>
+    <string name="health">Health</string>
+    <string name="mana">Mana</string>
+    <string name="move_speed">Move Speed</string>
+    <string name="armor">Armor</string>
+    <string name="attackdamage">AttackDamage</string>
 </resources>

@@ -20,15 +20,6 @@ public class Stats implements Serializable {
     public float getAttackdamage() {
         return attackdamage;
     }
-
-    public float getAttackrange() {
-        return attackrange;
-    }
-
-    private float attackrange;
-
-
-
     public float getHp() {
         return hp;
     }
