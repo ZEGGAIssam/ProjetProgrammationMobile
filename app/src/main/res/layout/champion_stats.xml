@@ -15,8 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="164dp"
-        android:layout_marginEnd="129dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="122dp"
         android:text="Health"
         android:textColor="@color/colorGold" />
 
@@ -26,20 +26,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="191dp"
-        android:layout_marginEnd="127dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="121dp"
         android:text="Mana"
         android:textColor="@color/colorGold" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/image"
-        android:layout_width="164dp"
-        android:layout_height="140dp"
+        android:layout_width="144dp"
+        android:layout_height="135dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="2dp"
+        android:layout_marginStart="5dp"
         android:layout_marginLeft="135dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="139dp"
         android:layout_marginEnd="135dp"
         android:layout_marginRight="135dp"
         android:layout_marginBottom="135dp"
@@ -68,11 +68,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="343dp"
         android:layout_marginBottom="400dp"
         android:text="Description"
         android:textColor="@color/colorGold"
-        android:textSize="12dp" />
+        android:textSize="18dp" />
 
     <TextView
         android:id="@+id/hp"
@@ -81,8 +81,8 @@
         android:layout_alignEnd="@+id/imageView7"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="185dp"
-        android:layout_marginTop="169dp"
-        android:layout_marginEnd="-40dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="-42dp"
         android:text="H"
         android:textColor="@color/colorGold"
         android:textSize="12sp" />
@@ -94,8 +94,8 @@
         android:layout_alignEnd="@+id/imageView4"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="185dp"
-        android:layout_marginTop="194dp"
-        android:layout_marginEnd="-38dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="-43dp"
         android:text="M"
         android:textColor="@color/colorGold"
         android:textSize="12sp" />
@@ -107,8 +107,8 @@
         android:layout_alignEnd="@+id/imageView3"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="185dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="-39dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="-42dp"
         android:text="M"
         android:textColor="@color/colorGold"
         android:textSize="12sp" />
@@ -120,8 +120,8 @@
         android:layout_alignEnd="@+id/imageView2"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="185dp"
-        android:layout_marginTop="121dp"
-        android:layout_marginEnd="-35dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="-43dp"
         android:text="A"
         android:textColor="@color/colorGold"
         android:textSize="12sp" />
@@ -133,8 +133,8 @@
         android:layout_alignEnd="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="185dp"
-        android:layout_marginTop="97dp"
-        android:layout_marginEnd="-40dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="-41dp"
         android:text="A"
         android:textColor="@color/colorGold"
         android:textSize="12sp" />
@@ -146,8 +146,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="167dp"
-        android:layout_marginEnd="105dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="100dp"
         app:srcCompat="@drawable/health" />
 
     <ImageView
@@ -157,8 +157,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="192dp"
-        android:layout_marginEnd="103dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="99dp"
         app:srcCompat="@drawable/mp" />
 
     <ImageView
@@ -168,8 +168,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="142dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="100dp"
         app:srcCompat="@drawable/movespeed" />
 
     <ImageView
@@ -179,8 +179,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="97dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="101dp"
         app:srcCompat="@drawable/axe" />
 
     <ImageView
@@ -190,8 +190,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="102dp"
         app:srcCompat="@drawable/armor" />
 
     <TextView
@@ -200,8 +200,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="126dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="123dp"
         android:text="Attack Damage"
         android:textColor="@color/colorGold" />
 
@@ -211,8 +211,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="117dp"
-        android:layout_marginEnd="126dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="124dp"
         android:text="Armor"
         android:textColor="@color/colorGold" />
 
@@ -222,16 +222,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="140dp"
-        android:layout_marginEnd="127dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="123dp"
         android:text="Move Speed"
         android:textColor="@color/colorGold" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
 
     <TextView
         android:id="@+id/textView9"
@@ -253,9 +247,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="68dp"
-        android:textColor="@color/colorGold"
-        android:text="Type de champion :" />
+        android:layout_marginTop="88dp"
+        android:text="Type de champion :"
+        android:textColor="@color/colorGold" />
 
 
 </RelativeLayout>
