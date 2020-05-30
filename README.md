@@ -15,6 +15,13 @@ chaque champion (leurs icones, leurs descriptions, le type de champion, ainsi qu
 - L'application possède également une fonction de Memory Cache, permettant un loading plus intuitif des informations.
 - Respect du Gitflow avec différenciation des différentes branches entre Master, Design et Developp.
 
+# Icône personnalisé :
+
+L'application possède une icône rappelant beaucoup le thème de League of Legends :
+
+![Screen](https://i.imgur.com/N3rwMUn.png)
+
+
 # Home Page :
 
 La HomePage contient une image en background du Champion "Kayn" avec un button permettant d'aller directement à la liste d'affichage
